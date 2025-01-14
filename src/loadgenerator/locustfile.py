@@ -21,8 +21,8 @@ import datetime
 fake = Faker()
 
 products = [
-    'LLJCEQWC7Z',
-    'PLJCEQWC7Z',
+    '3LJCEQWC7Z',
+    '7LJCEQWC7Z',
     '0PUK6V6EV0',
     '1YMWWN1N4O',
     '2ZYFJ3GM2N',

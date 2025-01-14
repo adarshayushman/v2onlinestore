@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "id": "LLJCEQWC7Z",
+            "id": "3LJCEQWC7Z",
             "name": "NEW Jacket",
             "description": "Add comfort and warmth to your style",
             "picture": "/static/img/products/jacket.jpg",
@@ -13,7 +13,7 @@
             "categories": ["clothing"]
         },
         {
-            "id": "PLJCEQWC7Z",
+            "id": "7LJCEQWC7Z",
             "name": "NEW Pair of socks",
             "description": "Feel cozy",
             "picture": "/static/img/products/socks.jpg",

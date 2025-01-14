@@ -147,6 +147,16 @@ public final class AdService {
   }
 
   private static ImmutableListMultimap<String, Ad> createAdsMap() {
+    Ad jacket =
+        Ad.newBuilder()
+            .setRedirectUrl("/product/3LJCEQWC7Z")
+            .setText("Jacket for sale. 50% off.")
+            .build();
+    Ad socks =
+        Ad.newBuilder()
+            .setRedirectUrl("/product/7LJCEQWC7Z")
+            .setText("Socks for sale. 50% off.")
+            .build();        
     Ad hairdryer =
         Ad.newBuilder()
             .setRedirectUrl("/product/2ZYFJ3GM2N")
@@ -183,7 +193,7 @@ public final class AdService {
             .setText("Loafers for sale. Buy one, get second one for free")
             .build();
     return ImmutableListMultimap.<String, Ad>builder()
-        .putAll("clothing", tankTop)
+        .putAll("clothing", tankTop, jacket, socks)
         .putAll("accessories", watch)
         .putAll("footwear", loafers)
         .putAll("hair", hairdryer)
